@@ -1,0 +1,141 @@
+body, html {
+	margin: 0;
+}
+body {
+	background-color: #F7F7F7;
+	color: #222;
+	font-family: Arial, Sans-serif;
+}
+div {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	width: 500px;
+	height: 120px;
+	margin-left: -250px;
+	margin-top: -75px;
+
+	border-radius: 10px;
+	text-align: center;
+	padding: 10px 0 20px 0;
+	box-shadow: 0px 0px 60px #DDD;
+	font-size: 20px;
+}
+span {
+	display: block;
+	font-size: 40px;
+	padding: 15px;
+}
+input {
+	padding: 3px;
+	font-size: 18px;
+	color: #222;
+}
+p {
+	position: absolute;
+	left: 100%;
+	top: 100%;
+	margin-left: -190px;
+	margin-top: -20px;
+	color: #BBB;
+	font-size: 11px;
+	cursor: pointer;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+p:hover {
+	color: #222;
+}
+strong {
+	background: url('ajax.gif') center center no-repeat;
+	width: 54px;
+	display: none;
+}
+hr {
+	display: none;
+	border: 0;
+	border-top: 1px solid #DDD;
+	margin: 10px;
+}
+s {
+	text-decoration: none;
+}
+a {
+	color: #444;
+	text-decoration: none;
+}
+a:hover {
+	border-bottom: 1px dashed #444;
+}
+
+/* Start custom button CSS here
+---------------------------------------- */
+button {
+	display: inline-block;
+	padding: 3px 0;
+	border-width: 0;
+	overflow: visible;
+	color: #333;
+	font-size: 21px;
+	margin-left: 10px;
+}
+* html button {
+	padding-bottom: 1px;
+}
+html:not([lang*=""]) button {
+	margin: 0 -3px 0 10px;
+}
+button font {
+	background: #f9f9f9;
+	z-index: 1;
+	padding: 3px 0;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #bbb;
+}
+* html button i, * html button font {
+	padding-top: 0;
+}
+button font i {
+	margin: 0;
+	position: relative;
+	padding: 3px .4em;
+	border-width: 0;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #bbb;
+}
+button b {
+	background: #e3e3e3;
+	position:absolute;
+	z-index: 2;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	height: 40%;
+	border-top: 3px solid #eee;
+}
+* html button b {
+	top: 1px;
+}
+button u {
+	position:relative;
+	z-index: 3;
+	text-decoration: none;
+	font-style: normal;
+}
+button:hover font, button:hover font i {
+	cursor: pointer;
+	border-color: #9cf !important;
+	color: #000;
+}
+button:active font i b {
+	bottom: auto;
+	top: 0;
+	border-top: 0px;
+	border-bottom: 3px solid #EEE;
+}
